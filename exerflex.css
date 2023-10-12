@@ -1,0 +1,42 @@
+main {
+     background-color: rgb(245, 249, 252);
+     height: 700px;
+     width: 100%;   
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+}
+
+.first{
+     background-color: rgb(105, 183, 251);
+     height: 700px;
+     width: 65%;  
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-content: space-between; 
+     flex-wrap: wrap;    
+    
+}
+.second{
+    background-color:rgb(252, 151, 28);
+    height: 700px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+article{
+    background-color: gray;
+    height: 80px;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0%;
+    align-items: center;
+
+}
+
